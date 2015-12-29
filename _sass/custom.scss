@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'nexa_rust';
+    src: url('/Fonts/NexaRustSans-Black-Free-webfont.eot');
+    src: url('/Fonts/NexaRustSans-Black-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/Fonts/NexaRustSans-Black-Free-webfont.woff2') format('woff2'),
+         url('/Fonts/NexaRustSans-Black-Free-webfont.woff') format('woff'),
+         url('/Fonts/NexaRustSans-Black-Free-webfont.ttf') format('truetype'),
+         url('/Fonts/NexaRustSans-Black-Free-webfont.svg#nexa_rust_sansblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.nav-logo {
+  max-height: 300px;
+  max-width: auto;
+  padding: 10px 0px;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  background-color: #C93314;
+  color: white;
+}
+
+.scroll-links li a h4 {
+  font-family: 'nexa_rust';
+  color: white;
+}
+
+.bg-home {
+  background: url('/img/Index.jpg') no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 100%; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+  -webkit-filter: blur(10px);
+}
+
+.jumbotron {
+  height: 350px;
+  background:transparent;
+}
+
+.jumbotron h1 {
+  font-family: 'nexa_rust';
+  color: #1C75BC;
+}
+.jumbotron p {
+  font-family: 'nexa_rust';
+  color: #C93314;
+}
+
+.title-text {
+  padding: 100px 10px;
+}
+
+.section-heading {
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  padding: 30px 0px;
+}
+
+.section-paragraph {
+  color: white;
+  text-shadow: #444 0 1px 1px;
+}
+
+.form-group {
+  color: white;
+  text-shadow: #444 0 1px 1px;
+}
+
+.site-footer {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.site-footer h4 {
+  font-family: 'nexa_rust';
+  color: #C93314;
+}
+.fa {
+  color: white;
+}
+.copyright {
+  color: white;
+  padding: 60px 0px;
+}
+
+.page-title {
+  padding: 200px 0px;
+}
