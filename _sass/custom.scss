@@ -34,7 +34,7 @@
   color: white;
 }
 
-.scroll-links li a h4 {
+.scroll-links li a {
   font-family: 'nexa_rust';
   color: white;
 }
@@ -73,22 +73,19 @@
   padding: 100px 10px;
 }
 
-.section-heading {
-  color: white;
-  text-shadow: #444 0 1px 1px;
-  padding: 30px 0px;
+.abt-content {
+  padding: 100px 0px; 
 }
 
-.section-paragraph {
-  color: white;
-  text-shadow: #444 0 1px 1px;
+.abt-content h1, h2 {
+  font-family: 'nexa_rust';
+  color: #1C75BC
 }
 
-.form-group {
-  color: white;
-  text-shadow: #444 0 1px 1px;
+.abt-content p {
+  font-family: 'chunkserif';
+  color: #C93314;
 }
-
 .site-footer {
   padding-top: 60px;
   padding-bottom: 0px;
