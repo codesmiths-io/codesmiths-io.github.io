@@ -89,10 +89,13 @@
 }
 
 .section1 h1 {
+  font-family: 'chunk';
+  letter-spacing: 3px;
   color: #fff;
 }
 
 .section1 h2  {
+  font-family: 'nexa';
   color: #d6a000;
 }
 
@@ -106,13 +109,44 @@
 }
 
 .section2 h1 {
+  font-family: 'chunk';
+  letter-spacing: 3px;
   color: #fff;
 }
 
-.section2 h2 {
-  color: #3ed60a;
+.section2 h2  {
+  font-family: 'nexa';
+  color: #d6a000;
 }
 
 .section2 p {
   color: #fff;
+}
+
+.footer {
+  background: rgba(62, 214, 10, .8);
+  margin: 0 -15px;
+  padding: 0 15px;
+}
+
+.footer ul {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.footer ul li {
+  display: inline;
+  padding: 20px 40px;
+}
+
+.footer a {
+  font-family: 'chunk';
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 1.7em;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #800ad6;
 }
