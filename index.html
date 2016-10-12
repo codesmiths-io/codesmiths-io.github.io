@@ -22,9 +22,7 @@ layout: default
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <button type="button" name="button" class="about-button"><a href="https://visitor.r20.constantcontact.com/d.jsp?llr=5ure5xyab&amp;p=oi&amp;m=1126084789918&amp;sit=ou94975kb&amp;f=116259c4-a410-4967-8a9a-b3bc9ba804d8" target="_blank">Get Info</a></button>
       </div>
     </div>
   </div>
@@ -47,31 +45,56 @@ layout: default
       </div>
       <div class="col-lg-6">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-          </ol>
-
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="http://placehold.it/560x550" alt="">
+              <a href="" data-toggle="modal" data-target="#FillableModal" target="_blank"><img src="/img/FillableLogo.jpg" alt="Fillable"></a>
+            </div>
+
+            <!-- modal -->
+            <div class="modal fade" id="FillableModal" tabindex="-1" role="dialog" aria-labelledby="FillableModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content custom-modal">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="FillableModalLabel">Fillable</h4>
+                  </div>
+                  <div class="modal-body text-center">
+                    <img src="/img/FillableLogo.jpg" alt="" height="300" width="330" class="img-rounded"/>
+                  </div>
+                  <div class="modal-footer">
+                    <h3 class="text-center"></h3>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="item">
-              <img src="http://placehold.it/560x550" alt="">
+              <a href="" data-toggle="modal" data-target="#ResetModal" target="_blank"><img src="/img/ResetTool.jpg" alt="Reset Tool"></a>
             </div>
 
-            <div class="item">
-              <img src="http://placehold.it/560x550" alt="">
+            <!-- modal -->
+            <div class="modal fade" id="ResetModal" tabindex="-1" role="dialog" aria-labelledby="ResetModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content custom-modal">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="ResetModalLabel">Password Reset Tool</h4>
+                  </div>
+                  <div class="modal-body text-center">
+                    <img src="/img/ResetTool.jpg" alt="" height="300" width="330" class="img-rounded"/>
+                  </div>
+                  <div class="modal-footer">
+                    <h3 class="text-center"></h3>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div class="item">
-              <img src="http://placehold.it/560x550" alt="">
-            </div>
           </div>
 
           <!-- Left and right controls -->

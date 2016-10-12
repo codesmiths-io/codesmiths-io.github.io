@@ -66,6 +66,22 @@
   letter-spacing: 1px;
 }
 
+.contact-info li {
+  list-style: none;
+}
+
+.contact-info li a {
+  font-family: "chunk";
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 2em; 
+}
+
+.contact-info li a:hover {
+  color: #3ED60A;
+  text-decoration: none;
+}
+
 .logo img {
   width: 60%;
   padding: 130px 0;
@@ -103,6 +119,30 @@
   color: #fff;
 }
 
+.about-button {
+  background: #3ED60A;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border-color: transparent;
+  box-shadow: #444 1px 1px 1px;
+}
+
+.about-button:hover {
+  background: #800AD6;
+}
+
+.about-button a {
+  font-family: 'chunk';
+  letter-spacing: 3px;
+  color: #fff;
+  font-size: 2em;
+}
+
+.about-button a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 .section2 {
   background-color: #c93314;
   padding: 20px 10px;
@@ -135,7 +175,7 @@
 }
 
 .footer ul li {
-  display: inline;
+  display: inline-block;
   padding: 20px 40px;
 }
 
